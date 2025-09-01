@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ボートレース予想アプリ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ボートレース予想アプリ</h1>
+  <form id="predict-form">
+    <label>1号艇のST: <input type="number" step="0.01" name="st1"></label><br>
+    <label>2号艇のST: <input type="number" step="0.01" name="st2"></label><br>
+    <label>3号艇のST: <input type="number" step="0.01" name="st3"></label><br>
+    <label>4号艇のST: <input type="number" step="0.01" name="st4"></label><br>
+    <label>5号艇のST: <input type="number" step="0.01" name="st5"></label><br>
+    <label>6号艇のST: <input type="number" step="0.01" name="st6"></label><br>
+    <button type="submit">予想する</button>
+  </form>
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
